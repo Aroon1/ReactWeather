@@ -38,7 +38,7 @@ var Weather = React.createClass({
 
     if (location && location.length > 0) {
       this.handleSearch(location);
-      window.location.hash = '/#';
+      window.location.hash = '#/';
     }
   },
   componentWillReceiveProps: function (newProps) {
@@ -46,7 +46,7 @@ var Weather = React.createClass({
 
     if (location && location.length > 0) {
       this.handleSearch(location);
-      window.location.hash = '/#';
+      window.location.hash = '#/';
     }
   },
   render: function () {
